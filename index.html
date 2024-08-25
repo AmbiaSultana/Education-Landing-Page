@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <header class="container mx-auto">
+    <!--navbar-->
+    <div class="navbar bg-base-100 content">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Home</a></li>
+            <li>
+              <a>Parent</a>
+
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl">Pro Edu</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>Parent</a></li>
+          <li><a>Deals</a></li>
+          <li><a>Success</a></li>
+          <li><a>About</a></li>
+          <li><a>Register</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <button class="btn text-blue-600">Register</button>
+      </div>
+    </div>
+    <!--banner-->
+    <div class="carousel w-full">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="./image+telwind/cover-1.png" class="w-full" />
+
+
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <div>
+            <div class=" max-auto text-center">
+              <h1 class="text-5xl font-bold text-white">Get Started Digital <br> Learning</h1>
+              <p class="py-6 text-white">
+                It is a long established fact that a reader will be distracted by the readable <br>
+                content of a page when looking at its layout.
+              </p>
+              <button class="btn bg-blue-600 btn-primary">Get Started</button>
+            </div>
+          </div>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="./image+telwind/cover-1.png" class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <div class="hero text-center">
+            <div class="hero-content text-center">
+              <div class=" max-auto text-center">
+                <h1 class="text-5xl font-bold text-white">Get Started Digital <br> Learning</h1>
+                <p class="py-6 text-white">
+                  It is a long established fact that a reader will be distracted by the readable <br>
+                  content of a page when looking at its layout.
+                </p>
+                <button class="btn bg-blue-600 btn-primary">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide3" class="carousel-item relative w-full">
+        <img src="./image+telwind/cover-1.png" class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide4" class="carousel-item relative w-full">
+        <img src="./image+telwind/cover-1.png" class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide3" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container mx-auto">
+    <!-- Discover Our Popular 
+Courses-->
+    <div class=" max-auto text-center">
+      <h1 class="text-5xl font-bold text-black mt-32">Discover Our Popular <br>
+        Courses</h1>
+      <p class="py-6 text-black-100">
+        It is a long established fact that a reader will be distracted by the readable <br>
+        content of a page when looking at its layout.
+      </p>
+    </div>
+    <!--card-->
+
+    <div class="flex gap-16">
+      <div class="card card-side bg-base-100 shadow-xl flex-1">
+        <figure>
+          <img src="./image+telwind/course-1.png" alt="Movie" />
+        </figure>
+
+        <div class="card-body">
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+
+        </div>
+      </div>
+
+
+
+      <div class="card card-side bg-base-100 shadow-xl flex-1">
+        <figure>
+          <img src="./image+telwind/course-2.png" alt="Movie" />
+        </figure>
+
+        <div class="card-body">
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+
+        </div>
+      </div>
+    </div>
+    <!--card-->
+
+    <div class="flex gap-16 mt-12">
+      <div class="card card-side bg-base-100 shadow-xl flex-1">
+        <figure>
+          <img src="./image+telwind/course-3.png" alt="Movie" />
+        </figure>
+
+        <div class="card-body">
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+
+        </div>
+      </div>
+
+
+
+      <div class="card card-side bg-base-100 shadow-xl flex-1">
+        <figure>
+          <img src="./image+telwind/course-4.png" alt="Movie" />
+        </figure>
+
+        <div class="card-body">
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+
+        </div>
+      </div>
+    </div>
+    <!--card-->
+
+    <div class="flex gap-16 mt-12">
+      <div class="card card-side bg-base-100 shadow-xl flex-1">
+        <figure>
+          <img src="./image+telwind/course-5.png" alt="Movie" />
+        </figure>
+
+        <div class="card-body">
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+
+        </div>
+      </div>
+
+
+
+      <div class="card card-side bg-base-100 shadow-xl flex-1">
+        <figure>
+          <img src="./image+telwind/course-6.png" alt="Movie" />
+        </figure>
+
+        <div class="card-body">
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="text-center">
+    <button class="btn bg-blue-600 btn-primary mt-12 mb-16"> See More Courses</button>
+  </p>
+
+  </div>
+  <!-- Explore The elearning 
+Institute-->
+  <div class="container mx-auto">
+    <div class="hero bg-base-200 min-h-screen ">
+      <div class="hero-content flex-col lg:flex-row gap-16">
+        <img src="./image+telwind/working.png" class="max-w-sm rounded-lg shadow-2xl " />
+        <div>
+          <h1 class="text-5xl font-bold">Explore The elearning <br>
+            Institute</h1>
+          <p class="py-6">
+            There are many variations of passages of Lorem Ipsum available, but the <br>
+            majority have suffered alteration in some form, by injected humour, or <br>
+            randomised words which don't look even slightly believable. If you are going <br>
+            to use a passage of Lorem Ipsum, you need to be sure.
+          </p>
+          <p class="py-6"> Anything embarrassing hidden in the middle of text. All the Lorem Ipsum <br>
+            generators on the Internet tend to repeat predefined</p>
+          <div class="flex gap-9">
+            <div>
+              <h1 class="text-5xl font-bold">3.2K+</h1>
+              <p>Online Course</p>
+            </div>
+            <div>
+              <h1 class="text-5xl font-bold"> 600+</h1>
+              <p> Expert member</p>
+            </div>
+            <div>
+              <h1 class="text-5xl font-bold"> 1k+</h1>
+              <p> Rating & Review</p>
+            </div>
+          </div>
+          <p class="mt-12"><button class="btn btn-primary"> Read More</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Ready to join-->
+  <div class="container mx-auto">
+    <div class="flex bg-blue-500 px-16 justify-between">
+      <div class="flex-1 mt-12 justify-between">
+        <h1 class="text-5xl font-bold text-white"> Ready to join?</h1>
+        <p class="py-6 text-white">
+          It is a long established fact that a reader will be distracted by the <br>readable
+          content of a page when looking at its layout.
+        </p>
+      </div>
+      <div class="flex-1">
+        <!-- Open the modal using ID.showModal() method -->
+        <p class="py-20 px-20"><button class="btn bg-yellow-400" onclick="my_modal_1.showModal()">Register Now</button>
+        </p>
+        <dialog id="my_modal_1" class="modal">
+          <div class="modal-box">
+            <h3 class="text-lg font-bold">Hello!</h3>
+            <p class="py-4">Press ESC key or click the button below to close</p>
+            <div class="modal-action">
+              <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+      </div>
+    </div>
+  </div>
+  <!-- Meet Our Successfull 
+Students-->
+  <div class="container mx-auto">
+    <h1 class="text-5xl font-bold mt-32">Meet Our Successfull <br>
+      Students</h1>
+    <p class="py-6 ">
+      It is a long established fact that a reader will be distracted by the <br>readable
+      content of a page when looking at its layout.
+    </p>
+    <!--card-->
+    <div class="flex">
+      <div class="card bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img src="./image+telwind/student-1.png" alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title"> Awlad Hossain</h2>
+          <p>UIUX Designer</p>
+
+        </div>
+      </div>
+      <div class="card bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img src="./image+telwind/student-2.png" alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Jannatul Islam</h2>
+          <p> Motion Design</p>
+
+        </div>
+      </div>
+      <div class="card bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img src="./image+telwind/student-3.png" alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Imran Hossain</h2>
+          <p> Graphic Designer</p>
+
+        </div>
+      </div>
+      <div class="card bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img src="./image+telwind/student-4.png" alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Nishi Akter</h2>
+          <p> Web Developer</p>
+
+        </div>
+      </div>
+    </div>
+    <p class="text-center">
+      <button class="btn bg-blue-600 btn-primary mt-12"> View All</button>
+    </p>
+    <!--Some Students Feedback-->
+    <div class="container mx-auto">
+      <h1 class="text-5xl font-bold text-center text-black mt-32">Some Students Feedback </h1>
+      <p class="py-6 text-center text-black-100">
+        It is a long established fact that a reader will be distracted by the readable <br>
+        content of a page when looking at its layout.
+      </p>
+      <!--star-->
+      <div class="flex gap-12">
+        <div class="card card-compact bg-base-100 w-96 shadow-xl flex-1 px-12">
+          <div class="flex justify-between">
+            <div><img src="./image+telwind/comma.png"></div>
+            <div class="rating">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+          </div>
+          <div class="card-body">
+
+            <p> There are many variations of passages of Lorem Ipsum available, but<br>
+              the majority have suffered alteration in some form, by injected<br>
+              humour, or randomised words which don't look even slightly<br>
+              believable. If you are going to use a passage of Lorem.
+            </p>
+            <div class="flex gap-6 mt-9">
+
+              <div><img src="./image+telwind/student-5.png"></div>
+              <div>
+                <h2 class="font-bold">Awlad Hossain</h2>
+                <p> UI Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="card card-compact bg-base-100 w-96 shadow-xl flex-1 ">
+          <div class="flex justify-between ">
+            <div><img src="./image+telwind/comma.png"></div>
+            <div class="rating">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+          </div>
+          <div class="card-body">
+
+            <p> There are many variations of passages of Lorem Ipsum available, but
+              the majority have suffered alteration in some form, by injected
+              humour, or randomised words which don't look even slightly
+              Nishi Akter
+              Web Developer
+            </p>
+            <div class="flex gap-6 mt-9">
+
+              <div><img src="./image+telwind/student-6.png"></div>
+              <div>
+                <h2 class="font-bold"> Shanta Akter</h2>
+                <p> Graphic Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Frequently Asked Questions-->
+  <div class="container mx-auto">
+    <h1 class="text-5xl font-bold text-center text-black mt-32">Frequently Asked Questions </h1>
+    <p class="py-6 text-center text-black-100">
+      It is a long established fact that a reader will be distracted by the readable <br>
+      content of a page when looking at its layout.
+    </p>
+    <!--acordian-->
+    <div class="join join-vertical w-full">
+      <div class="collapse collapse-arrow join-item border-base-300 border">
+        <input type="radio" name="my-accordion-4" checked="checked" />
+        <div class="collapse-title text-xl font-medium">What other services are you compatible with?</div>
+        <div class="collapse-content">
+          <p> There are many variations of passages of available, but the majority have suffered alteration in <br>
+            some form, by injected humour, or randomised words which don't look even slightly believable. If <br>
+            you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything <br>
+            embarrassing hidden in the middle of text. All the generators on the</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow join-item border-base-300 border">
+        <input type="radio" name="my-accordion-4" />
+        <div class="collapse-title text-xl font-medium">I have a technical i need resolved, who do i email?</div>
+        <div class="collapse-content">
+          <p></p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow join-item border-base-300 border">
+        <input type="radio" name="my-accordion-4" />
+        <div class="collapse-title text-xl font-medium"> What other services are you compatible with?</div>
+        <div class="collapse-content">
+          <p></p>
+        </div>
+        <div class="collapse collapse-arrow join-item border-base-300 border ">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title text-xl font-medium mb-16"> What other services are you compatible with?</div>
+          <div class="collapse-content">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Trusted by over 800+ companies-->
+    <h1 class="text-5xl font-bold text-center text-black mt-32 mb-16"> Trusted by over 800+ companies</h1>
+    <div class="flex mb-12">
+      <div class="flex-1 px-9"><img src="./image+telwind/company-1.png"></div>
+      <div class="flex-1"><img src="./image+telwind/company-2.png"></div>
+      <div class="flex-1"><img src="./image+telwind/company-3.png"></div>
+      <div class="flex-1"><img src="./image+telwind/company-4.png"></div>
+      <div class="flex-1"><img src="./image+telwind/company-5.png"></div>
+      <div class="flex-1"><img src="./image+telwind/company-6.png"></div>
+    </div>
+    <!-- Pro Edu-->
+    <div class="bg-black mt-32">
+      <h1 class="text-5xl font-bold text-center text-white py-16"> Pro Edu</h1>
+      <p class="text-center text-white"> Office 41, Zawaya Buildin, Ghala Muscat, <br>
+        Sultanate of Oman<br>
+        Privacy Ploicy | Terms of use</p>
+
+      <div class="flex justify-center mt-16 mb-32 py-16 gap-6">
+        <div><img class="h-12 w-12" src="./image+telwind/fb-b-1.png"></div>
+        <div><img class="h-12 w-12" src="./image+telwind/tw-b.png"></div>
+        <div><img class="h-12 w-16" src="./image+telwind/linkedin-logo.png"></div>
+        <div><img class="h-12 w-16" src="./image+telwind/ti-b.png"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
